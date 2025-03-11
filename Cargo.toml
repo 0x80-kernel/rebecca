@@ -6,6 +6,8 @@ authors = ["sky <skyy@macaw.me>"]
 description = "discord bot..."
 readme = "README.md"
 repository = "https://github.com/0x80-kernel/rebecca"
+license = "MIT"
+license-file = "LICENSE.txt"
 
 [dependencies]
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
