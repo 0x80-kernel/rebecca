@@ -1,0 +1,27 @@
+[package]
+name = "rebecca"
+version = "0.1.0"
+edition = "2021"
+authors = ["sky <skyy@macaw.me>"]
+description = "discord bot..."
+readme = "README.md"
+repository = "https://github.com/0x80-kernel/rebecca"
+
+[dependencies]
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+
+[dependencies.serenity]
+default-features = false
+features = [
+    "builder",
+    "chrono",
+    "client",
+    "framework",
+    "gateway",
+    "http",
+    "model",
+    "standard_framework",
+    "utils",
+    "rustls_backend",
+]
+version = "0.12"
